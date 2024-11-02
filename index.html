@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[W]orld</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1c1c1c;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 1s;
+            backdrop-filter: blur(5px);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            background-color: rgba(51, 51, 51, 0.8);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #444;
+            animation: slideIn 0.5s;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #f0f0f0;
+            margin-bottom: 10px;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        img.logo {
+            width: 150px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            background-color: rgba(43, 43, 43, 0.9);
+        }
+
+        section:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+        }
+
+        .stat-box {
+            display: inline-block;
+            width: calc(45% - 20px);
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(60, 60, 60, 0.8);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .stat-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 10px 5px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(51, 51, 51, 0.8);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    
+        <h1>Feel the WORLD!</h1>
+        <p>An executor after byfron.</p>
+    </header>
+    <main>
+        <section class="info-box">
+            <h2>Why Choose World?</h2>
+            <p>World enhances your Roblox experience with ease and comfort. Our executor is user-friendly, letting you explore limitless possibilities in your favorite games.</p>
+        </section>
+        <section class="features-box">
+            <h2>Features</h2>
+            <ul>
+                <li>Simple and intuitive interface</li>
+                <li>Robust security measures</li>
+                <li>Regular updates and enhancements</li>
+                <li>Trusted by the community</li>
+            </ul>
+        </section>
+        <h2>Executor Statistics</h2>
+        <div class="stat-box">
+            <strong>UNC:</strong> 77% <br>
+            <span style="color: #88ff88;">(Safe and reliable for your needs)</span>
+        </div>
+        <div class="stat-box">
+            <strong>Trusted:</strong> Recognized in the Hall of Lockers Discord server. <br>
+            <span style="color: #88ff88;">(A testament to our community trust)</span>
+        </div>
+        <div class="stat-box">
+            <strong>CPU Usage:</strong> Less than Solara, almost 0% usage. <br>
+            <span style="color: #88ff88;">(Optimized for performance)</span>
+        </div>
+        <div class="stat-box">
+            <strong>No Virus:</strong> Clean, Simplified Code. VIRUS FREE<br>
+            <span style="color: #88ff88;">(Your safety is our priority)</span>
+        </div>
+        <section class="download-box">
+            <h2>Download Now</h2>
+            <p>Get started with World and elevate your Roblox experience!</p>
+            <a href="https://github.com/worldexecutor/World-Simplified/raw/refs/heads/main/WorldS.zip" class="button" download>Download Executor</a>
+        
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 World. All rights reserved.</p>
+    </footer>
+</body>
+</html>
